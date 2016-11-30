@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D55B3FF1DE531F500B35ADF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D55B3FE1DE531F400B35ADF /* FeedVC.swift */; };
+		7D55B4011DE5338900B35ADF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D55B4001DE5338900B35ADF /* PostCell.swift */; };
+		7D778FE21DE5502500392BA4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D778FE11DE5502500392BA4 /* DataService.swift */; };
+		7D778FE41DE5793600392BA4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D778FE31DE5793600392BA4 /* Post.swift */; };
 		7DDE759E1DE37B7D0004DB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE759D1DE37B7D0004DB25 /* AppDelegate.swift */; };
 		7DDE75A01DE37B7D0004DB25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE759F1DE37B7D0004DB25 /* ViewController.swift */; };
 		7DDE75A31DE37B7D0004DB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE75A11DE37B7D0004DB25 /* Main.storyboard */; };
 		7DDE75A51DE37B7D0004DB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE75A41DE37B7D0004DB25 /* Assets.xcassets */; };
 		7DDE75A81DE37B7D0004DB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE75A61DE37B7D0004DB25 /* LaunchScreen.storyboard */; };
+		7DDE75B71DE37D670004DB25 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE75B31DE37D670004DB25 /* NotoSans-Bold.ttf */; };
+		7DDE75B81DE37D670004DB25 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE75B41DE37D670004DB25 /* NotoSans-BoldItalic.ttf */; };
+		7DDE75B91DE37D670004DB25 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE75B51DE37D670004DB25 /* NotoSans-Italic.ttf */; };
+		7DDE75BA1DE37D670004DB25 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DDE75B61DE37D670004DB25 /* NotoSans-Regular.ttf */; };
+		7DDE75BC1DE39D000004DB25 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE75BB1DE39D000004DB25 /* MaterialView.swift */; };
+		7DDE75BF1DE39DB70004DB25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE75BE1DE39DB70004DB25 /* Constants.swift */; };
+		7DDE75C11DE3A9BD0004DB25 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE75C01DE3A9BD0004DB25 /* MaterialButton.swift */; };
+		7DDE75C31DE3B21B0004DB25 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE75C21DE3B21B0004DB25 /* MaterialTextField.swift */; };
+		7DDE75C81DE3C6FE0004DB25 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDE75C51DE3C6FE0004DB25 /* Bolts.framework */; };
+		7DDE75C91DE3C6FE0004DB25 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDE75C61DE3C6FE0004DB25 /* FBSDKCoreKit.framework */; };
+		7DDE75CA1DE3C6FE0004DB25 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDE75C71DE3C6FE0004DB25 /* FBSDKLoginKit.framework */; };
+		7DFEF3C91DE6769800D9FCD4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DFEF3C81DE6769800D9FCD4 /* GoogleService-Info.plist */; };
+		9575284BBB7AE8831CE9B534 /* Pods_dbumblebee_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FE0A6849C741E60C572236 /* Pods_dbumblebee_showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D55B3FA1DE3FBBB00B35ADF /* dbumblebee-showcase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "dbumblebee-showcase.entitlements"; sourceTree = "<group>"; };
+		7D55B3FE1DE531F400B35ADF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		7D55B4001DE5338900B35ADF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		7D778FE11DE5502500392BA4 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		7D778FE31DE5793600392BA4 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7DDE759A1DE37B7D0004DB25 /* dbumblebee-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dbumblebee-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDE759D1DE37B7D0004DB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DDE759F1DE37B7D0004DB25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,21 @@
 		7DDE75A41DE37B7D0004DB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DDE75A71DE37B7D0004DB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DDE75A91DE37B7D0004DB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDE75B31DE37D670004DB25 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		7DDE75B41DE37D670004DB25 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7DDE75B51DE37D670004DB25 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		7DDE75B61DE37D670004DB25 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		7DDE75BB1DE39D000004DB25 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		7DDE75BE1DE39DB70004DB25 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7DDE75C01DE3A9BD0004DB25 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		7DDE75C21DE3B21B0004DB25 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		7DDE75C51DE3C6FE0004DB25 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		7DDE75C61DE3C6FE0004DB25 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7DDE75C71DE3C6FE0004DB25 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7DFEF3C81DE6769800D9FCD4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88DB03F2CDCE790836B29FE0 /* Pods-dbumblebee-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dbumblebee-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-dbumblebee-showcase/Pods-dbumblebee-showcase.release.xcconfig"; sourceTree = "<group>"; };
+		988A511C657E7D6DEE290A20 /* Pods-dbumblebee-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dbumblebee-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dbumblebee-showcase/Pods-dbumblebee-showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FE0A6849C741E60C572236 /* Pods_dbumblebee_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dbumblebee_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +66,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDE75C81DE3C6FE0004DB25 /* Bolts.framework in Frameworks */,
+				7DDE75C91DE3C6FE0004DB25 /* FBSDKCoreKit.framework in Frameworks */,
+				7DDE75CA1DE3C6FE0004DB25 /* FBSDKLoginKit.framework in Frameworks */,
+				9575284BBB7AE8831CE9B534 /* Pods_dbumblebee_showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1029B7C3235B37D492FC3556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				988A511C657E7D6DEE290A20 /* Pods-dbumblebee-showcase.debug.xcconfig */,
+				88DB03F2CDCE790836B29FE0 /* Pods-dbumblebee-showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		510F72CD551C131137C41614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE0A6849C741E60C572236 /* Pods_dbumblebee_showcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D778FE01DE54FDF00392BA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D778FE11DE5502500392BA4 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		7DDE75911DE37B7C0004DB25 = {
 			isa = PBXGroup;
 			children = (
 				7DDE759C1DE37B7D0004DB25 /* dbumblebee-showcase */,
 				7DDE759B1DE37B7D0004DB25 /* Products */,
+				1029B7C3235B37D492FC3556 /* Pods */,
+				510F72CD551C131137C41614 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +122,79 @@
 		7DDE759C1DE37B7D0004DB25 /* dbumblebee-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				7D778FE01DE54FDF00392BA4 /* Services */,
+				7D55B3FA1DE3FBBB00B35ADF /* dbumblebee-showcase.entitlements */,
+				7DDE75C41DE3C6BB0004DB25 /* Frameworks */,
+				7DDE75BD1DE39D9F0004DB25 /* Util */,
+				7DDE75B21DE37CF60004DB25 /* Resources */,
+				7DDE75B11DE37CEE0004DB25 /* Model */,
+				7DDE75B01DE37CE20004DB25 /* View */,
+				7DDE75AF1DE37C530004DB25 /* Controller */,
 				7DDE759D1DE37B7D0004DB25 /* AppDelegate.swift */,
-				7DDE759F1DE37B7D0004DB25 /* ViewController.swift */,
 				7DDE75A11DE37B7D0004DB25 /* Main.storyboard */,
 				7DDE75A41DE37B7D0004DB25 /* Assets.xcassets */,
 				7DDE75A61DE37B7D0004DB25 /* LaunchScreen.storyboard */,
 				7DDE75A91DE37B7D0004DB25 /* Info.plist */,
+				7DFEF3C81DE6769800D9FCD4 /* GoogleService-Info.plist */,
 			);
 			path = "dbumblebee-showcase";
+			sourceTree = "<group>";
+		};
+		7DDE75AF1DE37C530004DB25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DDE759F1DE37B7D0004DB25 /* ViewController.swift */,
+				7D55B3FE1DE531F400B35ADF /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7DDE75B01DE37CE20004DB25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DDE75BB1DE39D000004DB25 /* MaterialView.swift */,
+				7DDE75C01DE3A9BD0004DB25 /* MaterialButton.swift */,
+				7DDE75C21DE3B21B0004DB25 /* MaterialTextField.swift */,
+				7D55B4001DE5338900B35ADF /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7DDE75B11DE37CEE0004DB25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D778FE31DE5793600392BA4 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7DDE75B21DE37CF60004DB25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DDE75B31DE37D670004DB25 /* NotoSans-Bold.ttf */,
+				7DDE75B41DE37D670004DB25 /* NotoSans-BoldItalic.ttf */,
+				7DDE75B51DE37D670004DB25 /* NotoSans-Italic.ttf */,
+				7DDE75B61DE37D670004DB25 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DDE75BD1DE39D9F0004DB25 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7DDE75BE1DE39DB70004DB25 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		7DDE75C41DE3C6BB0004DB25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DDE75C51DE3C6FE0004DB25 /* Bolts.framework */,
+				7DDE75C61DE3C6FE0004DB25 /* FBSDKCoreKit.framework */,
+				7DDE75C71DE3C6FE0004DB25 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DDE75AC1DE37B7D0004DB25 /* Build configuration list for PBXNativeTarget "dbumblebee-showcase" */;
 			buildPhases = (
+				31ECD4544B6B933690198B83 /* [CP] Check Pods Manifest.lock */,
 				7DDE75961DE37B7D0004DB25 /* Sources */,
 				7DDE75971DE37B7D0004DB25 /* Frameworks */,
 				7DDE75981DE37B7D0004DB25 /* Resources */,
+				5BC9E578D00ACF506BAA9CBA /* [CP] Embed Pods Frameworks */,
+				2FEBADBE5DD9C0BB3D11DBDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +234,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = XLYUH65LFN;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,21 +265,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDE75B71DE37D670004DB25 /* NotoSans-Bold.ttf in Resources */,
+				7DFEF3C91DE6769800D9FCD4 /* GoogleService-Info.plist in Resources */,
 				7DDE75A81DE37B7D0004DB25 /* LaunchScreen.storyboard in Resources */,
+				7DDE75B81DE37D670004DB25 /* NotoSans-BoldItalic.ttf in Resources */,
+				7DDE75B91DE37D670004DB25 /* NotoSans-Italic.ttf in Resources */,
 				7DDE75A51DE37B7D0004DB25 /* Assets.xcassets in Resources */,
 				7DDE75A31DE37B7D0004DB25 /* Main.storyboard in Resources */,
+				7DDE75BA1DE37D670004DB25 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FEBADBE5DD9C0BB3D11DBDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dbumblebee-showcase/Pods-dbumblebee-showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31ECD4544B6B933690198B83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC9E578D00ACF506BAA9CBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dbumblebee-showcase/Pods-dbumblebee-showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DDE75961DE37B7D0004DB25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D778FE21DE5502500392BA4 /* DataService.swift in Sources */,
+				7DDE75C31DE3B21B0004DB25 /* MaterialTextField.swift in Sources */,
+				7D55B3FF1DE531F500B35ADF /* FeedVC.swift in Sources */,
+				7DDE75BC1DE39D000004DB25 /* MaterialView.swift in Sources */,
 				7DDE75A01DE37B7D0004DB25 /* ViewController.swift in Sources */,
 				7DDE759E1DE37B7D0004DB25 /* AppDelegate.swift in Sources */,
+				7DDE75BF1DE39DB70004DB25 /* Constants.swift in Sources */,
+				7DDE75C11DE3A9BD0004DB25 /* MaterialButton.swift in Sources */,
+				7D55B4011DE5338900B35ADF /* PostCell.swift in Sources */,
+				7D778FE41DE5793600392BA4 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +461,19 @@
 		};
 		7DDE75AD1DE37B7D0004DB25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988A511C657E7D6DEE290A20 /* Pods-dbumblebee-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "dbumblebee-showcase/dbumblebee-showcase.entitlements";
 				DEVELOPMENT_TEAM = XLYUH65LFN;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dbumblebee-showcase",
+				);
 				INFOPLIST_FILE = "dbumblebee-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dbumblebee.dbumblebee-showcase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbumblebee.showcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +481,19 @@
 		};
 		7DDE75AE1DE37B7D0004DB25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DB03F2CDCE790836B29FE0 /* Pods-dbumblebee-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "dbumblebee-showcase/dbumblebee-showcase.entitlements";
 				DEVELOPMENT_TEAM = XLYUH65LFN;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dbumblebee-showcase",
+				);
 				INFOPLIST_FILE = "dbumblebee-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dbumblebee.dbumblebee-showcase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbumblebee.showcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +518,7 @@
 				7DDE75AE1DE37B7D0004DB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

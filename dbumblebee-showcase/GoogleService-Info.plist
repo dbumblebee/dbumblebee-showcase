@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>224936733351-bn6ohoplsnrpbcra3qriugvtbe9tk4lf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.224936733351-bn6ohoplsnrpbcra3qriugvtbe9tk4lf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCAOkigWyU1r8BQ5DAUfc2FqD9FXr6j08U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>224936733351</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dbumblebee.showcase</string>
+	<key>PROJECT_ID</key>
+	<string>dbumblebee-showcase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dbumblebee-showcase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:224936733351:ios:42e68e2689d1e18d</string>
+	<key>DATABASE_URL</key>
+	<string>https://dbumblebee-showcase.firebaseio.com</string>
+</dict>
+</plist>
